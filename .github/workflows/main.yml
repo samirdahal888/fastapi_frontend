@@ -30,7 +30,7 @@ jobs:
             docker ps -q --filter "name=streamlit" | grep -q . && docker stop streamlit && docker rm streamlit || true
             docker image inspect streamlit &> /dev/null && docker rmi streamlit || true
           
-            docker build --no-cache -t streamlit ./app
+            docker build --no-cache -t streamlit .
             docker run -d --name streamlit -p 8501:8501 streamlit
           EOF
 
