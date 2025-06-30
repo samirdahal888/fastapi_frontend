@@ -52,7 +52,7 @@ def show_home():
         unsafe_allow_html=True
     )
 
-    st.markdown('<div class="main-title">🎓 Welcome to the School Management System 🎓</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">🎓 samir dahal hero xxa 🎓</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Empowering Students. Supporting Teachers. Streamlining Education.</div>', unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
