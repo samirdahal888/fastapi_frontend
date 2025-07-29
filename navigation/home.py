@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def show_home():
     st.set_page_config(page_title="School Management System", layout="wide")
 
@@ -49,11 +50,17 @@ def show_home():
         }
         </style>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
-    st.markdown('<div class="main-title">🎓 hello 🎓</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">Empowering Students. Supporting Teachers. Streamlining Education.</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="main-title">🎓 WELCOME TO STUDENT MANAGEMENT SYSTEM 🎓</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<div class="subtitle">Empowering Students. Supporting Teachers. Streamlining Education.</div>',
+        unsafe_allow_html=True,
+    )
     st.markdown("<hr>", unsafe_allow_html=True)
 
     # Optional image (can be removed or replaced with valid path or URL)
@@ -70,7 +77,13 @@ def show_home():
     Our goal is to simplify administration and enhance learning for all.
     """)
 
-    st.markdown('<div class="quote">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” – Malcolm X</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="quote">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” – Malcolm X</div>',
+        unsafe_allow_html=True,
+    )
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    st.markdown('<div class="footer">Made with ❤️ using Streamlit | Developed by Samir Dahal</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="footer">Made with ❤️ using Streamlit | Developed by Samir Dahal</div>',
+        unsafe_allow_html=True,
+    )
